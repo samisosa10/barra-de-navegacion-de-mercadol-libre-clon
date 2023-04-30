@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif,
+      sans-serif;
+  }
+  
+  span {
+    font-size: 13px;
+    font-weight: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(133, 132, 132);
+  }
+  
+  header {
+    background: #fff159;
+    height: 100px;
+    width: 100vw;
+    
+    
+  }
+  body{
+    height: 97vh;
+    width: 100vw;
+  }
+  .header__div_padre {
+    padding: 10px 80px;
+  }
+  
+  .logo_mercado_libre {
+    width: 140px;
+    height: 40px;
+  }
+  
+  
+  .header__div-nav {
+     width: 40em;
+    position: relative;
+    top: -45px;
+    left: 185px;
+  }
+  .header__div-nav-form-input {
+  
+    width: 40em;
+    height: 2.8em;
+    padding: 15px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 2px;
+    outline: transparent;
+    color: rgb(110, 107, 107);
+    box-shadow: 1px 1px 2px 0 #a1a0a0;
+  }
+  
+  .header__div-nav-form-input:active {
+    outline: 1px solid rgb(41, 131, 248);
+  }
+  
+  .header__div-nav-form-input::placeholder {
+    color: #c0c0c0;
+  }
+  .header__div-categoria-ul {
+    list-style: none;
+  }
+  .header__div-menu-inferior {
+    display: flex;
+    position: relative;
+    top: -65px;
+    left: 180px;
+    width: 530px;
+  }
+
+.header__div-menu-inferior-table tr th {
+    padding-right: 15px;
+}
+  
+  
+  .header__div-modal {
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    width: 100px ;
+  }
+  
+  .header__div-modal:hover{
+    outline: 1px solid #a7a5a554;
+    border-radius: 5px;
+  }
+  
+  .header__div-modal-img {
+    width: 35px;
+    height: 35px;
+  }
+  .header__div__modal-ubicacion-span {
+    display: inline-block;
+    padding-right: 2px;
+  }
+  
+  button {
+    position: relative;
+    top: 4px;
+    left: -40px;
+    background-color: transparent;
+    border: transparent;
+    border-left: 1px solid #c0c0c0;
+  }
+  
+  
+  
+  .button-img {
+    width: 22px;
+    height: 22px;
+  }
+  .header__div-menu-inferior-usuario{
+      position: relative;
+      top: -90px;
+      left:900px;
+      display: inline-block;
+      width:300px;
+  
+  }
+  
+  .header__div-menu-inferior-usuario tr th a span{
+      padding-right: 20px;
+      color: rgba(24, 23, 23, 0.849);
+  }
+  .header__div-menu-inferior-usuario tr th a span:hover{
+    color: black;
+  }
+  .carrito-img{
+      width: 20px;
+      height: 20px;
+      display: flex;
+      position: relative;
+      left: 270px;
+      top: -25px;
+  }
+  
+.header__div-menu-inferior-table{
+    width: 520px;
+}
+
+
